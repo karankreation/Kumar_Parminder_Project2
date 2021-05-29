@@ -1,0 +1,111 @@
+.hidden { display: none;}
+
+body {font-size: 20px; padding: 3em; background: 	#000000;
+ }
+
+
+
+h2 { margin: 1.5em;
+   font-size: 2em;
+   text-transform: uppercase;
+   text-align: center;
+   color: white;
+}
+
+h2:first-of-type {font-family: 'Reggae One', cursive; font-weight: 700;}
+
+ul li {display: inline-block;
+       margin: 3em;}
+ul{text-align: center; position: relative;}
+
+ul li:first-Child { color: #cceeff; }
+ul li:last-child  { color: #ff8080; }
+ul li:nth-child(2) { Color:#d9b3ff; }
+ul li:nth-child(3) { Color: #ccff99;}
+ul li:nth-child(4) { Color: #ffe066;}
+
+
+.background{width: 100%;}
+img{ width: 100%;}
+
+.pic2{
+  width: 50%;
+  margin: 1em;
+}
+.pic3{
+  width: 50%;
+  margin: 1em;
+ float: left;
+}
+
+h3 {margin: 1.5em;
+   font-size: 2em;
+   text-transform: uppercase;
+   text-align: center;
+   color: white;}
+h3:first-of-type{font-family: 'Major Mono Display', monospace;}
+
+
+h3 + p::first-letter { font-size: 3em;}
+h3 + p::first-line { font-size: 1.5em;}
+.para1{
+color: #ffff99;
+float: left;
+width: 45%;
+padding-top: 35px;
+
+font-size: 26px;}
+
+p:first-of-type{font-family: 'Newsreader', serif;}
+
+.para2{
+color: #b3ffb3;
+float: right;
+width: 45%;
+padding-top: 100px;
+
+font-size: 26px;}
+
+p:first-of-type{font-family: 'Newsreader', serif;}
+
+.para3{
+  padding-top: 45%;
+  padding-bottom: 10%;
+     font-size: 2em;
+
+     text-align: center;
+     color:   #c2f0f0;
+}
+
+aside:first-of-type{font-family: 'Sigmar One', cursive;}
+
+.para4{
+color:  	#ffcce6;
+width: 100%;
+font-size: 26px;
+text-align: center;}
+
+
+h4{margin: 1.5em;
+   font-size: 2em;
+   text-transform: uppercase;
+   text-align: center;
+   color: white;}
+
+h1:first-of-type{font-family: 'Monoton', cursive;}
+
+h1{margin: 1.5em;
+  font-size: 2em;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;}
+
+.para5{
+
+  padding-bottom: 10%;
+     font-size: 2em;
+
+     text-align: center;
+     color:   #FF7F50;
+
+}
